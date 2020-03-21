@@ -17,9 +17,10 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 }
-img {	
-	max-width: 80%;
-	max-height: 70%;
+img {
+	width: 25%;
+	height: 25%;
+	filter: grayscale(100%);
 }
 #right-box {
 	width: 40%;
@@ -43,7 +44,7 @@ a {
 	position: relative;
 	width: auto;
 	text-align: center;
-	margin-top: 150px;
+	margin-top: 70px;
 }
 
 #login input[type = email], #login input[type = password] {
@@ -76,4 +77,9 @@ a {
 	padding-bottom: 28px;
 	text-align: center;
 	margin: 20px auto;
+	outline: none;
+}
+
+#login input[type = submit]:hover {
+background-color: #3b634a;
 }
