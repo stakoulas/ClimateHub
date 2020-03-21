@@ -29,8 +29,8 @@ img {
 }
 #login {
 	width: 350px;
-	padding: 40px;
 	position: absolute;
+	padding: 5px 10px;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%,-50%);
