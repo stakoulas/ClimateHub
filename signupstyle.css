@@ -44,7 +44,7 @@ img {
 	background: none;
 	margin-top: 10px;
 	text-align: center;
-	border: 1px solid grey;
+	border: 1.5px solid #f5f5f5;
 	padding: 15px 10px;
 	width: 135px;
 	outline: none;
@@ -57,7 +57,7 @@ img {
 	display: block;
 	margin: 20px auto;
 	text-align: center;
-	border: 1px solid grey;
+	border: 1.5px solid #f5f5f5;
 	padding: 14px 10px;
 	width: 300px;
 	outline: none;
@@ -65,7 +65,7 @@ img {
 }
 
 #login input[type=text]:focus , #login input[type= email]:focus , #login input[type=password]:focus {
-	border: 1px solid #3d5863;
+	border: 1.5px solid #3d5863;
 }
 
 #login input[type=submit] {
