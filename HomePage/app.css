@@ -1,0 +1,66 @@
+html,body{
+   height:100%;
+}
+body {
+	font-family: 'Quicksand', sans-serif;
+}
+
+.carousel-image {
+	height: 100vh;
+}
+.my-carousel {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 50%;
+}
+.carousel-item {
+	height: 700px;
+}
+
+.my-nav {
+	z-index: 999;
+	width: 100%;
+	background: #F5F5F5; 
+}
+.container {
+	color: black;
+}
+.imagelogo {
+	position: absolute;
+	float: left;
+}
+.container #imagelogo {
+	width: 500px;
+	height: 500px;
+	filter: grayscale(100%);
+}
+.container .paragraph {
+	text-align: center;
+	padding-top: 100px;
+}
+.container .paragraph h1{
+	color: #5e7747;
+	text-align: center;
+	padding-bottom: 50px;
+	font-weight: 500;
+}
+#mainNav{
+	font-size: 20px;
+}
+
+#mainNav .nav-link {
+	color: black;
+}
+
+#mainNav .nav-link:hover {
+	color: #5e7747;
+}
+
+#mainNav .logo {
+	filter: grayscale(100%;);
+}
+.page-footer {
+	background: #F5F5F5;
+}
+
