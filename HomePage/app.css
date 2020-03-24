@@ -6,9 +6,11 @@ body {
 }
 .navbar-nav {
 	margin-left: 15px;
+	font-weight: 300;
 }
+
 .carousel-image {
-	height: 100vh;
+	height: 700px;
 }
 .my-carousel {
 	position: absolute;
@@ -19,7 +21,6 @@ body {
 .carousel-item {
 	height: 700px;
 }
-
 .my-nav {
 	z-index: 999;
 	width: 100%;
@@ -65,7 +66,23 @@ body {
 }
 .ontopbutton {
 	position: absolute;
-	z-index: 999;
+	z-index: 998;
+}
+.scrolltotop {
+	width: 40px;
+	height: 40px;
+	position: fixed;
+	bottom: 80px;
+	right: 30px;
+	line-height: 40px;
+	text-align: center;
+	background: #dcdcdc;
+	color: #5e7747;
+	border-radius: 10px;
+	display: none;
+}
+.scrolltotop:hover{
+	color: black;
 }
 #mainNav{
 	font-size: 20px;
