@@ -36,7 +36,7 @@ body {
 .container #imagelogo {
 	width: 500px;
 	height: 500px;
-	filter: grayscale(100%);
+	//filter: grayscale(100%);
 }
 .container .paragraph {
 	text-align: center;
@@ -97,7 +97,7 @@ body {
 }
 
 #mainNav .logo {
-	filter: grayscale(100%;);
+	filter: grayscale(100%);
 }
 
 
