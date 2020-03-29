@@ -1,0 +1,154 @@
+body {
+	font-family: 'Quicksand', sans-serif;
+	background-color:#FFF5EE;
+ 	text-align: center;
+}
+.navbar-nav {
+	margin-left: 15px;
+	font-weight: 300;
+}
+
+.carousel-image {
+	height: 700px;
+}
+.my-carousel {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 700px;
+}
+.carousel-item {
+	height: 700px;
+}
+.my-nav {
+	z-index: 999;
+	width: 100%;
+	background: #F5F5F5; 
+}
+.container {
+	color: black;
+}
+.imagelogo {
+	position: absolute;
+	float: left;
+}
+.container #imagelogo {
+	width: 500px;
+	height: 500px;
+	//filter: grayscale(100%);
+}
+.container .paragraph {
+	text-align: center;
+	padding-top: 100px;
+}
+.container .paragraph h1{
+	color: #5e7747;
+	text-align: center;
+	padding-bottom: 50px;
+	font-weight: 500;
+}
+.page-footer {
+	background: #F5F5F5;
+}
+.footer-links {
+	color: #5e7747;
+}
+.footer-links:hover {
+	color: black;
+	text-decoration: none;
+}
+.ontop{
+	width: 100%;
+	height: 700px;
+	position: absolute;
+	z-index: 500;
+}
+.ontopbutton {
+	position: absolute;
+	z-index: 998;
+}
+.scrolltotop {
+	width: 40px;
+	height: 40px;
+	position: fixed;
+	bottom: 80px;
+	right: 30px;
+	line-height: 40px;
+	text-align: center;
+	background: #dcdcdc;
+	color: #5e7747;
+	border-radius: 10px;
+	display: none;
+}
+.scrolltotop:hover{
+	color: black;
+}
+#mainNav{
+	font-size: 20px;
+}
+
+#mainNav .nav-link {
+	color: black;
+}
+
+#mainNav .nav-link:hover {
+	color: #5e7747;
+}
+
+#mainNav .logo {
+	filter: grayscale(100%);
+	
+}
+
+.scrolltotop {
+	width: 40px;
+	height: 40px;
+	position: fixed;
+	bottom: 80px;
+	right: 30px;
+	line-height: 40px;
+	text-align: center;
+	background: #dcdcdc;
+	color: #5e7747;
+	border-radius: 10px;
+	display: none;
+}
+
+.scrolltotop:hover{
+	color: black;
+}
+	
+.card {
+	border-radius :10px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	width: 80%;
+	height: 95%;
+	margin: 8vh auto;
+	background: #dce1e5;	
+}
+
+img{
+	border-radius: 10px;
+}
+
+.card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+	padding: 2px 16px
+}
+
+.card-body{
+	font-family: "Montserrat", helvetica, arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+ 	font-weight: 400;
+}
+.card-title{
+	font-weight: bold;
+}
+#more {
+	display: none;
+}
