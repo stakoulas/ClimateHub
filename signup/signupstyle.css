@@ -21,12 +21,14 @@ img {
 	filter: grayscale(100%);
 }
  a {
- 	color: #4a7c5d;
+ 	color: #7198a8;
 	text-decoration: none;
  }
- #signup {	
+
+ #loginlink {	
 	margin-top: 70px;
 }
+
 #login {
 	width: 350px;
 	position: absolute;

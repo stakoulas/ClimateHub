@@ -83,7 +83,8 @@ html,body{
 }
 
 .links:hover{
-	color: #F5F5F5;
+	color: black;
+	text-decoration: none;
 }
 
 /*CSS code for main code*/
@@ -143,5 +144,6 @@ html,body{
 }
 
 .readmore:hover{
-	color: #F5F5F5;
+	color: black;
+	text-decoration: none;
 }

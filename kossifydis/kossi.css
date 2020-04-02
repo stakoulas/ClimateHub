@@ -1,6 +1,5 @@
 html,body {
 	font-family: 'Quicksand', sans-serif;
-	background: #FFF5EE !important;
  	text-align: center;
 }
 .navbar-nav {
@@ -104,7 +103,6 @@ img{
 
 .container {
 	padding: 2px 16px;
-	background: #FFF5EE;
 }
 
 .card-body{
@@ -118,4 +116,15 @@ img{
 }
 #more {
 	display: none;
+}
+.readmore{
+	margin:center;
+	font-size: 15px;
+	color: #F5F5F5; 
+	background-color: #555555;
+	border-radius: 10px;
+	padding: 10px;
+}
+.readmore:hover{
+	color: #F5F5F5;
 }
