@@ -10,7 +10,7 @@ html,body {
 .my-nav {
 	z-index: 999;
 	width: 100%;
-	background: #F5F5F5; 
+	background: #2f4858; 
 }
 
 .container #imagelogo {
@@ -29,14 +29,18 @@ html,body {
 	font-weight: 500;
 }
 .page-footer {
-	background: #F5F5F5;
+	color: white;
+	background: #2f4858;
 }
 .footer-links {
-	color: #5e7747;
+	color: #f6ae2d;
 }
 .footer-links:hover {
 	color: black;
 	text-decoration: none;
+}
+.page-footer .row  {
+	text-align: center;
 }
 .ontop{
 	width: 100%;
@@ -54,11 +58,11 @@ html,body {
 }
 
 #mainNav .nav-link {
-	color: black;
+	color: white;
 }
 
 #mainNav .nav-link:hover {
-	color: #5e7747;
+	color: #f6ae2d;
 }
 
 #mainNav .logo {
@@ -74,7 +78,7 @@ html,body {
 	line-height: 40px;
 	text-align: center;
 	background: #dcdcdc;
-	color: #5e7747;
+	color: #f6ae2d;
 	border-radius: 10px;
 	display: none;
 }
@@ -90,7 +94,7 @@ html,body {
 	width: 80%;
 	height: 95%;
 	margin: 8vh auto;
-	background: #dce1e5;	
+	background: #dcdcdc;	
 }
 
 img{
@@ -109,8 +113,13 @@ img{
 	font-family: "Montserrat", helvetica, arial, sans-serif;
 	font-size: 16px;
 	line-height: 1.5;
- 	font-weight: 400;
+	font-weight: 400;
 }
+
+.card-text {
+	text-align: justify;
+}
+
 .card-title{
 	font-weight: bold;
 }
@@ -118,7 +127,6 @@ img{
 	display: none;
 }
 .readmore{
-	margin:center;
 	font-size: 15px;
 	color: #F5F5F5; 
 	background-color: #555555;

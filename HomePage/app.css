@@ -3,6 +3,7 @@ html,body{
 }
 body {
 	font-family: 'Quicksand', sans-serif;
+	background: #f5f5f5;
 }
 .navbar-nav {
 	margin-left: 15px;
@@ -24,7 +25,7 @@ body {
 .my-nav {
 	z-index: 999;
 	width: 100%;
-	background: #F5F5F5; 
+	background: #2F4858; 
 }
 .container {
 	color: black;
@@ -36,7 +37,7 @@ body {
 .container #imagelogo {
 	width: 500px;
 	height: 500px;
-	//filter: grayscale(100%);
+	filter: grayscale(100%);
 }
 .img-center {
 	margin:0 auto;
@@ -46,16 +47,20 @@ body {
 	padding-top: 100px;
 }
 .container .paragraph h1{
-	color: #5e7747;
+	color: #F6AE2D;
 	text-align: center;
 	padding-bottom: 50px;
 	font-weight: 500;
 }
 .page-footer {
-	background: #F5F5F5;
+	background: #2f4858;
+	color: white;
+}
+.page-footer .row  {
+	text-align: center;
 }
 .footer-links {
-	color: #5e7747;
+	color: #F6AE2D;
 }
 .footer-links:hover {
 	color: black;
@@ -80,7 +85,7 @@ body {
 	line-height: 40px;
 	text-align: center;
 	background: #dcdcdc;
-	color: #5e7747;
+	color: #F6AE2D;
 	border-radius: 10px;
 	display: none;
 }
@@ -92,11 +97,11 @@ body {
 }
 
 #mainNav .nav-link {
-	color: black;
+	color: #ffffff;
 }
 
 #mainNav .nav-link:hover {
-	color: #5e7747;
+	color: #F6AE2D;
 }
 
 #mainNav .logo {
