@@ -22,11 +22,18 @@ h2 {
     padding-bottom: 10px;
     text-align: center;
     font-size: 30px;
+    color: #2F4858;
 }
 
 a {
-    color: #7198a8;
+    color: #F6AE2D;
     text-decoration: none;
+    font-weight: 800;
+}
+
+p{
+    color: #2F4858;
+    font-size: 18px;
 }
 
 #firstname {
@@ -35,7 +42,7 @@ a {
 	background: none;
     margin: 20px auto;
 	text-align: center;
-	border: 1.5px solid #f5f5f5;
+	border: 1px solid #2F4858;
 	padding: 15px 10px;
 	width: 350px;
 	outline: none;
@@ -48,7 +55,7 @@ a {
 	background: none;
     margin: 20px auto;
 	text-align: center;
-	border: 1.5px solid #f5f5f5;
+	border: 1px solid #2F4858;
 	padding: 15px 10px;
 	width: 350px;
 	outline: none;
@@ -61,7 +68,7 @@ a {
 	display: block;
 	margin: 20px auto;
 	text-align: center;
-	border: 1.5px solid #f5f5f5;
+	border: 1px solid #2F4858;
 	padding: 14px 10px;
 	width: 350px;
 	outline: none;
@@ -69,7 +76,7 @@ a {
 }
 
 #signup input[type=text]:focus , #signup input[type= email]:focus , #signup input[type=password]:focus {
-	border: 1.5px solid #3d5863;
+	border: 1.5px solid #F6AE2D;
 }
 
 #signup input[type=submit] {
@@ -79,11 +86,12 @@ a {
 	display: block;
 	margin: 20px auto;
 	text-align: center;
-	border: 1px solid grey;
+	border: 1px solid #2F4858;
 	padding: 14px 10px;
 	width: 350px;
 	outline: none;
 	border-radius: 10px;
+    font-size: 14px;
 }
 
 #loginlink {	
@@ -96,7 +104,7 @@ a {
 
     body {
         min-height: 100%;
-        background-image: url('iceberg.jpg');
+        background-image: url('mountain.jpg');
         background-size: cover;
         background-repeat: no-repeat;
      }
@@ -118,9 +126,10 @@ a {
         top: 50%;
         left: 50%;
         transform: translate(-50%,-50%);
-        background: white;
+        background: #f5f5f5;
         text-align: center;
         border-radius: 10px;
+        opacity: 0.9;
     }
     
     #firstname , #lastname {
@@ -130,7 +139,7 @@ a {
         margin-top: 10px;
         margin-bottom: 5px;;
         text-align: center;
-        border: 1.5px solid #f5f5f5;
+        border: 1px solid #2F4858;
         padding: 15px 10px;
         width: 135px;
         outline: none;
@@ -143,7 +152,7 @@ a {
         display: block;
         margin: 20px auto;
         text-align: center;
-        border: 1.5px solid #f5f5f5;
+        border: 1px solid #2F4858;
         padding: 14px 10px;
         width: 300px;
         outline: none;
@@ -151,25 +160,26 @@ a {
     }
     
     #signup input[type=text]:focus , #signup input[type= email]:focus , #signup input[type=password]:focus {
-        border: 1.5px solid #3d5863;
+        border: 1px solid #F6AE2D;
     }
     
     #signup input[type=submit] {
         border: none;
-        background: #7198a8;
+        background: #2F4858;
         color: white;
         display: block;
         margin: 20px auto;
         text-align: center;
-        border: 1px solid grey;
+        border: 1px solid #2F4858;
         padding: 14px 10px;
         width: 300px;
         outline: none;
         border-radius: 10px;
+        font-size: 16px;
     }
     
     #signup input[type=submit]:hover {
-        background: #3d5863;
+        background: #F6AE2D;
     }
 
     #loginlink {	
