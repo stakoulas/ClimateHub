@@ -2,7 +2,7 @@ body,html{
     padding: 0;
     margin: 0;
     font-family: 'Quicksand', sans-serif !important;
-	background: #f5f5f5;
+	background: #f5f5f5 !important;
 }
 /*------------------------navbar----------------------*/
 .navbar-nav {
@@ -33,18 +33,18 @@ body,html{
 }
 
 .dropdown-menu {
-    background: #2F4858; 
-    text-align: center;
-    font-size: 20px;
+    background: #2F4858 !important; 
+    text-align: center !important;
+    font-size: 20px !important;
 }
 
 .dropdown-item {
-    color: #ffffff;
+    color: #ffffff !important;
 }
 
 .dropdown-item:hover{
-    color: #F6AE2D;
-    background-color: #2F4858; 
+    color: #F6AE2D !important;
+    background-color: #2F4858 !important; 
 }
 
 /*------------------------footer----------------------*/
@@ -103,16 +103,17 @@ body,html{
 
 /*--------------CSS code for problems.html-------------------*/
 .lts{
-	margin-top: 60px;
+	margin-top: 62.5px;
 	text-align: center;
-	background-color: #33658A;
+	background-image: linear-gradient(#39576b,#3a749e);
 	color: #f5f5f5;
 	height: 50px;
 	vertical-align: center;
-	line-height: 50px;
+	line-height: 47px;
 	width: 100%;
 	position: fixed;
 	z-index: 999;
+	border-top: 2px solid #e39b19;
 }
 
 .links{
@@ -123,6 +124,11 @@ body,html{
 }
 
 .links:hover{
+	color: #F6AE2D;
+	text-decoration: none;
+}
+
+.links:focus{
 	color: #F6AE2D;
 	text-decoration: none;
 }
@@ -149,20 +155,21 @@ body,html{
 }
 
 .info{
-	margin-top: 80px;
+	margin-top: 60px;
 }
 
 .images{
-	width: 750px;
-	height: 400px;
+	width: 80%;
+	height: 450px;
 	display: block;
  	margin-left: auto;
  	margin-right: auto;
+ 	border-radius: 5px;
 }
 
 .text{
 	font-size: 18px;
-	margin-left: 110px;
+	margin-left: 90px;
 	margin-right: 90px;
 	margin-top: 40px;
 }
@@ -174,9 +181,9 @@ body,html{
 
 .readmore1,.readmore2,.readmore3,.readmore4{
 	font-size: 15px;
-	color: black;
+	color: #f5f5f5;
 	background-color: #F6AE2D;
-	border-radius: 15px;
+	border-radius: 10px;
 	padding: 10px;
 }
 
@@ -185,6 +192,31 @@ body,html{
 	text-decoration: none;
 }
 
+.temp{
+	max-width: 49%;
+	height: auto;
+	margin-right: 3px;
+	border-radius: 5px;
+}
+
+.co2{
+	width: 100%;
+	height: auto;
+}
+
+#ice{
+	width: 40%;
+	height: auto;
+	padding-left: 10px;
+	border-radius: 5px !important;
+	display: block;
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1337px){
+	#ice{
+		display: none;
+	}
+}
 
 /*----------------CSS code for tablets or landscape in mobiles ----------------*/
 @media only screen and (max-width: 1024px){
@@ -193,16 +225,17 @@ body,html{
 	}
 
 	.lts{
-		margin-top: 60px;
+		margin-top: 62px;
 		text-align: center;
-		background-color: #33658A;
+		background-image: linear-gradient(#39576b,#3a749e);
 		color: #f5f5f5;
 		height: 50px;
 		vertical-align: center;
-		line-height: 50px;
+		line-height: 48px;
 		width: 100%;
 		position: fixed;
 		z-index: 999;
+		border-top: 2px solid #F6AE2D;
 	}
 
 	.links{
@@ -277,13 +310,31 @@ body,html{
 		color: black;
 		text-decoration: none;
 	}
+
+	.temp{
+		width: 80%;
+		height: auto;
+		margin-bottom: 10px;
+		margin-right: 0;
+		border-radius: 5px;
+	}
+
+	.co2{
+		width: 100%;
+		height: auto;
+	}
+
+	#ice{
+		display: none;
+	}
+
 }
 
 
 /*--------------------CSS code small changes for mobiles or tablets demendind on the screen--------------------------*/
 @media only screen and (min-width:767px) and (max-width:905px){
 	#mainNav{
-		font-size: 16px;
+		font-size: 20px;
 	}
 	#mainNav .nav-link {
 	   padding-left: 0px;
@@ -323,7 +374,7 @@ body,html{
 	.titlesec{
 		border-bottom: 3px solid #F6AE2D;
 		border-right: none;
-		font-size: 25px;
+		font-size: 26px;
 		text-align: center;
 		font-weight: 600;
 	}
