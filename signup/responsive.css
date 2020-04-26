@@ -22,18 +22,11 @@ h2 {
     padding-bottom: 10px;
     text-align: center;
     font-size: 30px;
-    color: #2F4858;
 }
 
 a {
-    color: #F6AE2D;
+    color: #7198a8;
     text-decoration: none;
-    font-weight: 800;
-}
-
-p{
-    color: #2F4858;
-    font-size: 18px;
 }
 
 #firstname {
@@ -42,7 +35,7 @@ p{
 	background: none;
     margin: 20px auto;
 	text-align: center;
-	border: 1px solid #2F4858;
+	border: 1.3px solid #2F4858;
 	padding: 15px 10px;
 	width: 350px;
 	outline: none;
@@ -55,7 +48,7 @@ p{
 	background: none;
     margin: 20px auto;
 	text-align: center;
-	border: 1px solid #2F4858;
+	border: 1.3px solid #2F4858;
 	padding: 15px 10px;
 	width: 350px;
 	outline: none;
@@ -68,7 +61,7 @@ p{
 	display: block;
 	margin: 20px auto;
 	text-align: center;
-	border: 1px solid #2F4858;
+	border: 1.3px solid #2F4858;
 	padding: 14px 10px;
 	width: 350px;
 	outline: none;
@@ -76,28 +69,54 @@ p{
 }
 
 #signup input[type=text]:focus , #signup input[type= email]:focus , #signup input[type=password]:focus {
-	border: 1.5px solid #F6AE2D;
+	border: 1.3px solid #F6AE2D;
 }
 
 #signup input[type=submit] {
 	border: none;
-	background: #7198a8;
-	color: white;
+	background: #2F4858;
+	color: #ffff ;
 	display: block;
 	margin: 20px auto;
 	text-align: center;
-	border: 1px solid #2F4858;
 	padding: 14px 10px;
 	width: 350px;
 	outline: none;
 	border-radius: 10px;
-    font-size: 14px;
 }
 
 #loginlink {	
     text-align: center;
     margin-top: 70px;
     margin-bottom: 20px;
+}
+
+.home {
+    width: 70px;
+    height: 70px;
+    border-radius: 24px;
+    background-color: #f5f5f5;
+    opacity: 0.9;
+    color: #ffff;
+    position: absolute;
+    top: 10px !important;
+    left: 10px !important;
+    font-size: 50px;
+    text-align: center;
+}
+.home a {
+    width: 70px;
+    height: 70px;
+    border-radius: 24px;
+    color: #2F4858;
+}
+
+.home a:hover {
+    color: #F6AE2D;
+}
+
+.bi-house {
+    margin: 7px 5px 5px 5px;
 }
 
 @media only screen and (min-width:1000px) {
@@ -122,14 +141,15 @@ p{
     #signup {
         width: 350px;
         position: absolute;
-        padding: 5px 10px;
+        padding-left: 10px;
+        padding-right: 10px;
         top: 50%;
         left: 50%;
         transform: translate(-50%,-50%);
-        background: #f5f5f5;
+        background: #ffff;
         text-align: center;
         border-radius: 10px;
-        opacity: 0.9;
+        opacity: 0.90;
     }
     
     #firstname , #lastname {
@@ -139,7 +159,7 @@ p{
         margin-top: 10px;
         margin-bottom: 5px;;
         text-align: center;
-        border: 1px solid #2F4858;
+        border: 1.2px solid #2F4858;
         padding: 15px 10px;
         width: 135px;
         outline: none;
@@ -152,7 +172,7 @@ p{
         display: block;
         margin: 20px auto;
         text-align: center;
-        border: 1px solid #2F4858;
+        border: 1.2px solid #2F4858;
         padding: 14px 10px;
         width: 300px;
         outline: none;
@@ -160,7 +180,7 @@ p{
     }
     
     #signup input[type=text]:focus , #signup input[type= email]:focus , #signup input[type=password]:focus {
-        border: 1px solid #F6AE2D;
+        border: 1.2px solid #F6AE2D;
     }
     
     #signup input[type=submit] {
@@ -170,21 +190,49 @@ p{
         display: block;
         margin: 20px auto;
         text-align: center;
-        border: 1px solid #2F4858;
         padding: 14px 10px;
         width: 300px;
         outline: none;
         border-radius: 10px;
-        font-size: 16px;
     }
     
     #signup input[type=submit]:hover {
         background: #F6AE2D;
     }
-
+    a{
+        color: #F6AE2D;
+    }
     #loginlink {	
         text-align: center;
         margin-top: 70px;
         margin-bottom: 20px;
+    }
+
+    .home {
+        width: 70px;
+        height: 70px;
+        border-radius: 24px;
+        background-color: #ffff;
+        opacity: 0.9;
+        color: #ffff;
+        position: relative;
+        top: 50px ;
+        left: 50px;
+        font-size: 50px;
+        text-align: center;
+    }
+    .home a {
+        width: 70px;
+        height: 70px;
+        border-radius: 24px;
+        color: #2F4858;
+    }
+
+    .home a:hover {
+        color: #F6AE2D;
+    }
+
+    .bi-house {
+        margin: 7px 5px 5px 5px;
     }
 }

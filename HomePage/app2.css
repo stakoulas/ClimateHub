@@ -47,6 +47,7 @@ body,html{
     background-color: #2F4858; 
 }
 
+
 /*------------------------carousel----------------------*/
 
 
@@ -170,6 +171,9 @@ body,html{
 
 /*------------------------------Desktop style-------------*/
 @media only screen and (min-width: 1000px) {
+    .container{
+        margin-bottom: 80px;
+    }
     #MagicCarousel {
         width: 100% !important;
         margin: 0px;

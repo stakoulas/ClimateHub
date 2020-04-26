@@ -46,7 +46,9 @@ body,html{
     color: #F6AE2D;
     background-color: #2F4858; 
 }
-
+.collapse{
+    text-align: start;
+}
 /*------------------------footer----------------------*/
 .page-footer {
 	background: #2f4858;
@@ -100,7 +102,7 @@ body,html{
     box-shadow: none;
 }
 
-
+/*----------------CSS code for cards----------------*/
 	
 .card {
 	border-radius :10px;
@@ -109,8 +111,8 @@ body,html{
 	width: 80%;
 	height: 95%;
 	margin:auto;
-	margin-top: 8%;	
-	margin-bottom: 1%;
+	margin-top: 7%;	
+	margin-bottom: 4%;
 }
 
 img{
@@ -142,12 +144,17 @@ img{
 .more {
 	display: none;
 }
+
 button{
 	font-size: 15px;
 	color: #F5F5F5; 
 	background-color:#F6AE2D;
 	border-radius: 10px;
 	padding: 10px;
+}
+
+button:focus {
+	outline: 0;
 }
 .readmore:hover{
 	color: #F5F5F5;
@@ -158,6 +165,23 @@ button{
 		border-right: 3px solid #F6AE2D;
 		font-size: 26px;
 		text-align: right;
-		margin-top: 60px;
+		margin-top: 70px;
 		font-weight: 600;
+		margin-bottom: 40px;
 	}
+
+/*----------------CSS code for tablets or landscape in mobiles ----------------*/
+@media only screen and (max-width: 1024px){
+	#mainNav{
+		font-size: 20px;
+	}
+	.titlesec{
+    	font-size: 24px;
+    	text-align:left;
+    	border-left:3px solid #F6AE2D;
+    	border-right: 3px solid #F5F5F5; 
+    	margin-left: 12px;
+		font-weight: 600;
+    }
+    
+}
