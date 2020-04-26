@@ -2,7 +2,8 @@ body,html{
     padding: 0;
     margin: 0;
     font-family: 'Quicksand', sans-serif;
-	background: #EBEFF3;
+    background: #EBEFF3;
+    min-height: 100% !important;
 }
 /*------------------------navbar----------------------*/
 .navbar-nav {
@@ -47,12 +48,37 @@ body,html{
     background-color: #2F4858; 
 }
 
+.drop{
+    background-color: #2F4858;
+}
+
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
     outline: none;
     box-shadow: none;
     background: #2F4858;
+}
+/*------------------------footer----------------------*/
+.page-footer {
+    background: #2f4858;
+    color: white;
+    width: 100%;
+    margin-top: auto ;
+}
+.page-footer .row  {
+    text-align: center;
+}
+.footer-links {
+    color: #ffffff;
+}
+.footer-links:hover {
+    color: #F6AE2D;
+    text-decoration: none;
+}
+
+.orange{
+    color: #F6AE2D;
 }
 
 /*-------------------------------------Dashboard---------------------------*/
@@ -250,7 +276,9 @@ input[name=search]:focus{
     padding: 0;
 }
 
-
+.container-fluid{
+    min-height: 100%;
+}
 
 /*-----------------------test--------------------*/
 
@@ -263,7 +291,6 @@ input[name=search]:focus{
 
 .box3{
     padding: 0;
-    
 }
 
 #uppertable{
@@ -272,4 +299,18 @@ input[name=search]:focus{
     padding-bottom: 0;
     border: none;
     
+}
+
+@media only screen and (min-width:767px) and (max-width:905px){
+    #mainNav{
+        font-size: 18px;
+    }
+    #mainNav .nav-link {
+       padding-left: 0px;
+    }
+
+    .links{
+        font-size: 16px;
+        margin:10px;
+    }
 }

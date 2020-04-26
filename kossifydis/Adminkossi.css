@@ -47,6 +47,10 @@ body,html{
     background-color: #2F4858; 
 }
 
+.collapse{
+    text-align: start;
+}
+
 /*------------------------footer----------------------*/
 .page-footer {
 	background: #2f4858;
@@ -270,4 +274,18 @@ button:focus{
     	width: 100%;
     }
     
+}
+
+@media only screen and (min-width:767px) and (max-width:905px){
+	#mainNav{
+		font-size: 18px;
+	}
+	#mainNav .nav-link {
+	   padding-left: 0px;
+    }
+
+    .links{
+    	font-size: 16px;
+    	margin:10px;
+    }
 }

@@ -47,6 +47,10 @@ body,html{
     background-color: #2F4858 !important; 
 }
 
+.drop{
+    background-color: #2F4858;
+}
+
 /*------------------------footer----------------------*/
 .page-footer {
 	background: #2f4858;

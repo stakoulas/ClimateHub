@@ -55,6 +55,10 @@ body,html{
     box-shadow: none;
 }
 
+.drop{
+    background-color: #2F4858;
+}
+
 /*------------------------footer----------------------*/
 .page-footer {
     background: #2f4858;
@@ -329,5 +333,19 @@ body,html{
     .contact_us:hover {
         text-decoration: none;
         color: black;
+    }
+}
+
+@media only screen and (min-width:767px) and (max-width:905px){
+    #mainNav{
+        font-size: 18px;
+    }
+    #mainNav .nav-link {
+       padding-left: 0px;
+    }
+
+    .links{
+        font-size: 16px;
+        margin:10px;
     }
 }

@@ -49,6 +49,10 @@ body,html{
     background-color: #2F4858 !important; 
 }
 
+.drop{
+    background-color: #2F4858;
+}
+
 /*------------------------footer----------------------*/
 .page-footer {
     background: #2f4858;
@@ -230,4 +234,17 @@ body,html{
 
 .this {
     margin-top:0%;
+}
+
+@media only screen and (min-width:767px) and (max-width:1200px){
+    #mainNav{
+        font-size: 20px !important;
+    }
+    #mainNav .nav-link {
+       padding-left: 0px !important;
+    }
+
+    .links{
+        margin:15px;
+    }
 }

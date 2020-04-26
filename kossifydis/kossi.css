@@ -49,6 +49,10 @@ body,html{
 .collapse{
     text-align: start;
 }
+
+.drop{
+    background-color: #2F4858;
+}
 /*------------------------footer----------------------*/
 .page-footer {
 	background: #2f4858;
@@ -184,4 +188,17 @@ button:focus {
 		font-weight: 600;
     }
     
+}
+
+@media only screen and (min-width:767px) and (max-width:905px){
+	#mainNav{
+		font-size: 20px;
+	}
+	#mainNav .nav-link {
+	   padding-left: 0px;
+    }
+
+    .links{
+    	margin:15px;
+    }
 }
