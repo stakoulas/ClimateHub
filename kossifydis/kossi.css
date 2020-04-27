@@ -190,15 +190,14 @@ button:focus {
     
 }
 
-@media only screen and (min-width:767px) and (max-width:905px){
-	#mainNav{
-		font-size: 20px;
-	}
-	#mainNav .nav-link {
-	   padding-left: 0px;
+@media only screen and (min-width:767px) and (max-width:1200px){
+    #mainNav{
+        font-size: 20px !important;
     }
-
+    #mainNav .nav-link {
+       padding-left: 0px !important;
+    }
     .links{
-    	margin:15px;
+        margin:15px;
     }
 }

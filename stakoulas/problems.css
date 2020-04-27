@@ -422,3 +422,15 @@ body,html{
 		text-decoration: none;
 	}
 }
+
+@media only screen and (min-width:906px) and (max-width:1200px){
+    #mainNav{
+        font-size: 20px !important;
+    }
+    #mainNav .nav-link {
+       padding-left: 0px !important;
+    }
+    .links{
+        margin:15px;
+    }
+}
